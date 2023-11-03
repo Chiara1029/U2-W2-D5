@@ -4,8 +4,12 @@
 
 main .container{
     width: 50%;
-    height: 100vh;
+}
+@media screen and (max-width:768px){
+    main .container{
+        width: 100%;
+    }
 }
 #maturity, #language{
-    width: 30%;
+    width: 35%;
 }

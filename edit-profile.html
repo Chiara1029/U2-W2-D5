@@ -13,18 +13,19 @@
     <link rel="stylesheet" href="edit-style.css" />
     <title>Edit Profile</title>
   </head>
-  <body>
+  <body class="text-bg-dark">
     <nav class="navbar navbar-light bg-dark">
       <a class="navbar-brand" href="#">
         <img src="./Netflix-assets/assets/netflix_logo.png" alt="Netflix" height="40" />
       </a>
     </nav>
-    <main class="text-bg-dark">
+    <main>
       <div class="container">
         <h2>Edit Profile</h2>
         <hr class="bg-secondary" />
         <div class="row justify-content-evenly">
           <div class="col-2">
+            <span class="badge badge-pill position-absolute"><i class="bi bi-pencil"></i></span>
             <img src="./Netflix-assets/assets/avatar.png" alt="profile picture" height="150" />
           </div>
           <div class="col-6">
@@ -58,7 +59,7 @@
                   Autoplay next episode in a series on all devices.
                 </label>
               </div>
-              <div class="form-check">
+              <div class="form-check mb-3">
                 <input
                   class="form-check-input text-bg-dark rounded-0"
                   type="checkbox"
@@ -74,21 +75,14 @@
           </div>
           <hr class="bg-secondary" />
         </div>
-        <!-- <form>
-          <div class="form-group">
-            <label for="picture">Profile Picture:</label>
-            <input type="file" class="form-control-file" id="picture" name="picture" />
-          </div>
-          <button type="submit" class="btn btn-primary">Save</button>
-        </form> -->
-        <div class="row">
-          <div class="col">
+        <div class="row mt-3 md-flex-column justify-content-lg-center g-2">
+          <div class="col-md-8 col-lg-3">
             <button class="btn btn-light rounded-0">SAVE</button>
           </div>
-          <div class="col">
+          <div class="col-md-8 col-lg-3">
             <button class="text-secondary bg-dark btn btn-outline-secondary rounded-0">CANCEL</button>
           </div>
-          <div class="col">
+          <div class="col-md-8 col-lg-3">
             <button class="text-secondary bg-dark btn btn-outline-secondary rounded-0">DELETE PROFILE</button>
           </div>
         </div>
