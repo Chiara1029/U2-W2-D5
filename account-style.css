@@ -1,0 +1,7 @@
+/*NAV*/
+nav .active{
+    font-weight: 700;
+}
+nav .navbar-toggler{
+    border: solid 1px white;
+}
