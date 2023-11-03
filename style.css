@@ -1,0 +1,32 @@
+nav .active{
+    font-weight: 700;
+}
+nav .navbar-toggler{
+    border: solid 1px white;
+}
+
+.container{
+    margin-inline: auto;
+}
+
+main img{
+    width: 100%;
+}
+
+main{
+    padding-bottom: 4em;
+}
+
+main .row>*{
+    padding-inline: 0.2em;
+}
+ul {
+    list-style-type: none;
+  }
+a{
+    text-decoration: none;
+}
+
+.btn{
+    border-radius: 0;
+}
