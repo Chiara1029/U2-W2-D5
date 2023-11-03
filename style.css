@@ -50,8 +50,11 @@ footer{
     width: 60%;
 }
 .more-info{
-    padding-left: 1.7em;
+    padding-left: 2em;
 }
 footer p{
     font-size: 0.8em;
+}
+.social-links a{
+    font-size: 1.3em;
 }
