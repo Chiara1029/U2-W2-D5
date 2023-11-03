@@ -4,7 +4,6 @@ nav .active{
 nav .navbar-toggler{
     border: solid 1px white;
 }
-
 .container{
     margin-inline: auto;
 }
@@ -29,4 +28,11 @@ a{
 
 .btn{
     border-radius: 0;
+}
+
+footer{
+    width: 60%;
+}
+.more-info{
+    padding-left: 1.7em;
 }
