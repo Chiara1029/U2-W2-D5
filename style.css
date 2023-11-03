@@ -1,21 +1,21 @@
+/*NAV*/
 nav .active{
     font-weight: 700;
 }
 nav .navbar-toggler{
     border: solid 1px white;
 }
+
+/*MAIN*/
 .container{
     margin-inline: auto;
 }
-
 main img{
     width: 100%;
 }
-
 main{
     padding-bottom: 4em;
 }
-
 main .row>*{
     padding-inline: 0.2em;
 }
@@ -25,14 +25,33 @@ ul {
 a{
     text-decoration: none;
 }
-
 .btn{
     border-radius: 0;
 }
+@media screen and (min-width:450px){
+    .list-btn{
+        background-color: #212529;
+    }
+    .grid-btn{
+        background-color: #6C757D;
+    }
+}
+@media screen and (min-width:1000px){
+    .list-btn{
+        background-color: #6C757D;
+    }
+    .grid-btn{
+        background-color: #212529;
+    }
+}
 
+/*FOOTER*/
 footer{
     width: 60%;
 }
 .more-info{
     padding-left: 1.7em;
+}
+footer p{
+    font-size: 0.8em;
 }
