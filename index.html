@@ -50,6 +50,7 @@
             </li>
           </ul>
           <form role="search">
+            <!--L'idea era di creare una barra search con collapse ma dopo svariati tentativi continua a non funzionare-->
             <button
               class="btn btn-dark"
               type="button"
@@ -60,10 +61,12 @@
             >
               <i class="bi bi-search d-none d-lg-inline-block"></i>
             </button>
-            <!-- <div class="input-group">
-              <input class="form-control me-2 rounded-0" type="text" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-secondary" type="submit">Search</button>
-            </div> -->
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                <input class="form-control me-2 rounded-0" type="text" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+              </div>
+            </div>
           </form>
           <div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-md-start align-items-lg-center">
@@ -84,6 +87,7 @@
                   <img src="./Netflix-assets/assets/avatar.png" alt="user avatar" height="40" />
                 </a>
                 <ul class="dropdown-menu bg-dark border border-light position-relative">
+                  <!--senza position-relative il dropdown si apre a destra a metà schermo, allargando il viewport-->
                   <li>
                     <a class="dropdown-item text-bg-dark" href="edit-profile.html"
                       ><i class="bi bi-pencil"></i> Edit Profile</a
